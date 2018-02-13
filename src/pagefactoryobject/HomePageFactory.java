@@ -8,8 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePageFactory {
 
+# this is the webdriver
 	WebDriver driver;
-	
+	# this is how the elements are located
 	@FindBy(how = How.CSS, using = "input[name='email_address']")
 	WebElement email_address;
 	
